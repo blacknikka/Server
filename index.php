@@ -52,11 +52,6 @@ try {
   echo '</tbody>';
   echo '</table>';
 
-#  foreach($result as $row)
-#  {
-#    echo $row->ToJson();
-#  }
-
   $pdo = NULL;
 
 
