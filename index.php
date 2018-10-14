@@ -15,7 +15,9 @@
 <div>
 <?php
 
+# user name
 $username = 'user';
+# password
 $password = 'password001';
 $dsn = 'mysql:host=localhost:8889;dbname=testdb;charset=utf8';
 
