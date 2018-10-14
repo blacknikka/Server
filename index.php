@@ -19,6 +19,8 @@
 $username = 'user';
 # password
 $password = 'password001';
+
+# db
 $dsn = 'mysql:host=localhost:8889;dbname=testdb;charset=utf8';
 
 try {
