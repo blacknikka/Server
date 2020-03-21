@@ -30,6 +30,8 @@ try {
   $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+  echo "hello";
+  echo "hello";
   var_dump($pdo);
 
   $sql = 'SELECT * FROM MEMBER';
